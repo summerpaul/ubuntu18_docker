@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
       network: host
     image: motion-planning-ros-melodic-vnc:melodic
-    container_name: motion-planning-paul
+    container_name: motion-planning-paul-melodic
     hostname: ubuntu
     
     privileged: true
